@@ -1,5 +1,5 @@
 import "package:flutter/material.dart";
-import "gradientbackground.dart";
+import 'start_screen.dart';
 
 void main(List<String> args) {
   runApp(const QuizApp());
