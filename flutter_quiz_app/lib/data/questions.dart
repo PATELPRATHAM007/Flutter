@@ -1,25 +1,21 @@
-import "package:flutter_quiz_app/models/quiz_questions.dart";
-import "package:flutter_quiz_app/quesions_screen.dart";
-var questions  = [
+import "package:flutter_quiz_app/models/quiz_question.dart";
+
+const questions = [
   QuizQuestion(
-    
-    "what are the mian bluilding blocks of flutter UIs",
-     [
-      "widgets",
-      "components",
-      "blocks",
-      "functions"
-    ]
-  ),
-  QuizQuestion(
-    'How are Flutter UIs built?', 
+    'What are the main building blocks of Flutter UIs?',
     [
-      'By combining widgets in code',
-      'By combining widgets in a visual editor',
-      'By defining widgets in config files',
-      'By using XCode for iOS and Android Studio for Android',
-    ]
+      'Widgets',
+      'Components',
+      'Blocks',
+      'Functions',
+    ],
   ),
+  QuizQuestion('How are Flutter UIs built?', [
+    'By combining widgets in code',
+    'By combining widgets in a visual editor',
+    'By defining widgets in config files',
+    'By using XCode for iOS and Android Studio for Android',
+  ]),
   QuizQuestion(
     'What\'s the purpose of a StatefulWidget?',
     [
@@ -56,5 +52,4 @@ var questions  = [
       'By calling updateState()',
     ],
   ),
-
 ];
